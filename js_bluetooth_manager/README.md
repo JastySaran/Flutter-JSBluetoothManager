@@ -25,6 +25,8 @@ Based on charecterstics found it performs the following action
 
 To Understand the library you need to have basic knowledge on Dart Programming language and Bluetooth Pheripherals connectivity and the usage.It doesn't work on emulators.You require a real device and a Bluetooth Device to test it.
 
+Note: The bluetooth device should have a proper firmware which supports encryption or any kind of sending and receiving data.
+
 TODO: List prerequisites and provide or point to information on how to
 start using the package.
 
