@@ -9,7 +9,7 @@ import 'package:flutter_blue/flutter_blue.dart';
 import 'dart:io' show Platform;
 import 'package:pointycastle/export.dart';
 
-class BluetoothManager {
+class JSBluetoothManager {
   /*create FlutterBlue instance*/
   FlutterBlue flutterBlue = FlutterBlue.instance;
 

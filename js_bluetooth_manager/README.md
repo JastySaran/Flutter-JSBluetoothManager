@@ -36,7 +36,16 @@ TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
 ```dart
-const like = 'sample';
+// Scan for devices and handles connectection with device as required and dicover charecterstic and if there are any notify charecterstic it prints the charecterstic value.
+JSBluetoothManager bluetoothManager = JSBluetoothManager();
+bluetoothManager.beginDiscoveringPeripheral();
+
+// Write data (String) to Bluetooth Charecterstic
+bluetoothManager.writeEncryptedValueToBluetooth(charecterstic, 'Hello, JS!');
+
+// Read data from Bluetooth Charecterstic Value
+bluetoothManager.readDecryptedValueFromBluetooth(charecterstic, key)
+
 ```
 
 ## Additional information
